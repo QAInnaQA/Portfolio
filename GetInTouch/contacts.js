@@ -1,0 +1,6 @@
+gsap.to(".menu", {y: 7, ease: "bounce", duration: 1.5})
+gsap.from('.links', { duration: 3, opacity: 0, delay: 0.5, stagger: 0.3 })
+gsap.from(".container-left", {duration: 2.3, x: -600, ease: "power2.inOut"})
+gsap.from(".container-right", {duration: 2.3, x: 600, ease: "power2.inOut"})
+gsap.from(".links-contacts", {duration: 2.3, x: 600, ease: "power2.inOut", opacity: 0, delay: 0.7, stagger: 0.4})
+gsap.from(".social", {duration: 2.3, x: 600, ease: "power2.inOut", opacity: 0, delay: 0.7, stagger: 0.4})
